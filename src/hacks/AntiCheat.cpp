@@ -19,6 +19,7 @@ namespace hacks::shared::anticheat
 static settings::Boolean enable{ "find-cheaters.enable", "0" };
 static settings::Boolean accuse_chat{ "find-cheaters.accuse-in-chat", "0" };
 static settings::Boolean autorage{ "find-cheaters.auto-rage", "0" };
+static settings::Boolean autorage{ "find-cheaters.auto-rage-cat", "0" };
 static settings::Boolean skip_local{ "find-cheaters.ignore-local", "1" };
 
 void Accuse(int eid, const std::string &hack, const std::string &details)
